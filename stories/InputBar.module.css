@@ -1,0 +1,72 @@
+.inputbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: calc(100vh / 14);
+  width: 100vw;
+  background-color: #fdfdfd;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+  color: #9090a0;
+}
+
+.messageinput {
+  position: relative;
+  flex-grow: 1;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  border-radius: 9999px;
+  height: calc(100vh / 20);
+  background-color: #eeeeee;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.upload {
+  flex-shrink: 0;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.plusicon {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.smileicon {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  color: #b0b0c0;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.cameraicon {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 36px;
+  vertical-align: middle;
+}
+
+.pictureicon {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 36px;
+  vertical-align: middle;
+}
+
+.micicon {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 40px;
+  vertical-align: middle;
+}

@@ -1,0 +1,17 @@
+.button {
+  border: none;
+  color: #ebebeb;
+  padding-left: 8px;
+  padding-right: 8px;
+  background: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #ffffff;
+}
+
+.icon {
+  font-size: 38px;
+  vertical-align: middle;
+}
